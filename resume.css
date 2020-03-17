@@ -1,0 +1,82 @@
+/*html {
+	background-image: url(https://images.unsplash.com/photo-1571066599621-34cd6db5ca0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+}*/
+
+h1 {
+	color: green;
+}
+h2 {
+	color: pink;
+	font-size: 30px;
+}
+li {
+	font-weight: bold;
+}
+/*img {
+	border: 5px dotted pink;
+	padding: 10px;
+	opacity: 0.5;
+}*/
+#headshot {
+	position: absolute;
+	top: 10%;
+	right: 20%;
+}
+
+/* Link Box Styles */
+#linkBox_content:hover #linkBox_img {
+	transform: scale(1.25);
+}
+#linkBox_content {
+	position: relative;
+	width: 33%;
+	overflow: hidden;
+}
+#linkBox_img {
+	width: 100%;
+	transition: all 1.5s ease-in-out;
+}
+#linkBox_text {
+	position: absolute;
+	top: 30%;
+	left: 12%;
+
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+
+/* Use commas to seperate multiple selectors and apply the same rule to all */
+table, th, td {
+	border: 3px solid black;
+}
+table {
+	background-color: yellow;
+	padding: 15px;
+	margin: 0 auto; /* When there is two numbers, the first number is for top+bottom, the second is for right+left */
+}
+th, td {
+	background-color: white;
+	padding: 5px;
+}
+.tableHeadingRow {
+	margin-bottom: 10px;
+}
+/* The # signals an ID */
+#placesHeader {
+	color: blue;
+	text-align: center;
+	margin-bottom: 50px;
+}
+/* The . signals a Class */
+.educationImage {
+	transform: rotate(180deg);
+}
+#paragraphSpace {
+	margin-top: 200px;
+}
